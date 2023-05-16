@@ -1,0 +1,8 @@
+Plugins Development
+
+https://snippets.khromov.se/a-nicer-way-to-structure-your-plugin/
+
+
+https://snippets.khromov.se/reordering-admin-menu-in-wordpress/
+
+https://wordpress.stackexchange.com/questions/224159/how-to-disable-or-remove-all-posts-published-and-trash-in-dashboard-posts

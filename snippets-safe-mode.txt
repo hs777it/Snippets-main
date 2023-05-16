@@ -1,0 +1,9 @@
+To activate safe mode, add the following line to your wp-config.php file, somewhere before the line that reads “/* That’s all, stop editing! Happy blogging. */“:
+
+define('CODE_SNIPPETS_SAFE_MODE', true);
+
+After enabling safe mode, you should be able to log in to your WordPress dashboard and deactivate or fix the snippet that was causing the issue.
+
+Once this is done, you can to turn safe mode off by either commenting out this line or deleting it.
+
+A more convenient way to enable sage mode on a per-page basis is by appending ?snippets-safe-mode=true to the URL of the current page.

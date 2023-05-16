@@ -1,0 +1,13 @@
+add_action('get_header', 'wpsites_remove_genesis_do_nav');
+/**
+* @author Brad Dalton - WP Sites
+* @example http://wp.me/p1lTu0-9Nr
+* @copyright 2014 WP Sites
+*/
+function wpsites_remove_genesis_do_subnav() {
+if (is_single('007') ) {
+remove_action('genesis_after_header', 'genesis_do_nav');
+
+  }
+
+}

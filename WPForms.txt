@@ -1,0 +1,31 @@
+Can't remember your password? <a href="{url_lost_password}">Click here</a>. Don't have an account? <a href="{url_register}">Register here</a>.
+
+-------------------------- OR
+
+<div class="desc-link">
+Can't remember your password? <a href="{url_lost_password}">Click here</a>.
+<br>
+</div>
+<div class="desc-link">
+Don't have an account? <a href="https://smartmedia-kw.com/kfeoch/registration">Register here</a>.
+</div>
+
+
+=-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-= =-=-=-=
+
+<div class="desc-link wpforms-field-medium">
+Can't remember your password? <a href="{url_lost_password}">Click here</a>.
+<br>
+
+<div class="desc-link wpforms-field-medium">
+Can't remember your password? <a href="https://smartmedia-kw.com/kfeoch/wp-login.php?action=lostpassword">Click here</a>.
+<br>
+
+<div class="desc-link wpforms-field-medium">
+Can't remember your password? <a href="https://smartmedia-kw.com/kfeoch/my-account/lost-password/">Click here</a>.
+
+<br>
+</div>
+<div class="desc-link wpforms-field-medium">
+Don't have an account? <a href="https://smartmedia-kw.com/kfeoch/registration">Register New Account</a>.
+</div>

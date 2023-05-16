@@ -1,0 +1,19 @@
+
+function remove_header() {
+   if (!in_category( 'Landing Page')) {
+      return;
+   }
+   $css_to_hide_header = <<<EOT
+   <style>
+    #header {
+        display:none;
+    }
+    #nav {
+        display:none;
+    }  
+        </style>
+   EOT;
+   echo $css_to_hide_header;
+}
+add_action('wp_head', 'remove_header');
+

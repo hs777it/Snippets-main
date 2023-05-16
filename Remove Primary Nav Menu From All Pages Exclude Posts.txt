@@ -1,0 +1,13 @@
+add_action('get_header', 'child_remove_genesis_do_nav');
+/**
+*@author Brad Dalton
+*
+*@Link http://wpsites.net/web-design/remove-nav-menu-specific-page/
+*/
+function child_remove_genesis_do_nav() {
+if ( is_home() || is_page() || is_archive() ) {
+remove_action('genesis_after_header', 'genesis_do_nav');
+}
+}
+
+

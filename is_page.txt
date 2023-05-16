@@ -1,0 +1,5 @@
+if( is_page( array( 'about-us', 'contact', 'management' ) ){
+
+ #hide your header; 
+
+}

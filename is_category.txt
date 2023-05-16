@@ -1,0 +1,9 @@
+<?php
+
+if ( is_category( 'mycategory' ) ) {
+ //nothing 
+} else {
+ //
+} 
+
+?>
